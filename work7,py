@@ -1,0 +1,325 @@
+# 27/10/26
+# ---------
+# OPERATORS BASED QUESTION
+# ------------------------
+
+# Employee Salary Calculation
+# ----------------------------
+# basic_salary = 35000
+# bonus = 5000
+# tax = 2000
+
+# total_salary = basic_salary + bonus
+# final_salary = total_salary - tax
+# yearly_salary = final_salary * 12
+# floor_salary = yearly_salary // 12
+
+# print("Total Salary:", total_salary)
+# print("Final Salary:", final_salary)
+# print("Yearly Salary:", yearly_salary)
+# print("Floor Division:", floor_salary)
+# -------------------------------------------------
+# Mobile
+# ----------
+# mobile_price = 45000
+# discount = 5000
+# gst = 2000
+
+# discounted_price = mobile_price - discount
+# final_amount = discounted_price + gst
+# half_amount = final_amount / 2
+# remainder = final_amount % 3
+
+# print("Discounted Price:", discounted_price)
+# print("Final Amount:", final_amount)
+# print("Half Amount:", half_amount)
+# print("Remainder:", remainder)
+# ----------------------------------------------------
+# Student Mark
+# ------------
+# python_marks = 85
+# sql_marks = 78
+# powerbi_marks = 90
+
+# total = python_marks + sql_marks + powerbi_marks
+# average = total / 3
+
+# print("Total Marks:", total)
+# print("Average Marks:", average)
+# print("Python > SQL:", python_marks > sql_marks)
+# print("Power BI == Python:", powerbi_marks == python_marks)
+# -------------------------------------------------------------------
+# Ecommerce
+# -----------
+# product_price = 1200
+# quantity = 4
+# delivery_charge = 150
+
+# total_cost = product_price * quantity
+# total_bill = total_cost + delivery_charge
+# square = quantity ** 2
+
+# print("Total Product Cost:", total_cost)
+# print("Total Bill:", total_bill)
+# print("Bill > 5000:", total_bill > 5000)
+# print("Square of Quantity:", square)
+# --------------------------------------------------------
+# Data usage monitoring
+# ---------------------
+# daily_usage = 2.5
+# days = 30
+
+# monthly_usage = daily_usage * days
+# mb_usage = monthly_usage * 1024
+
+# print("Monthly Usage:", monthly_usage, "GB")
+# print("Usage in MB:", mb_usage, "MB")
+# print("Usage > 50 GB:", monthly_usage > 50)
+
+# monthly_usage += 10
+# print("Updated Usage:", monthly_usage, "GB")
+# ------------------------------------------------------------
+# Bank account Transaction
+# ------------------------
+# balance = 50000
+# deposit = 12000
+# withdraw = 7000
+
+# balance += deposit
+# balance -= withdraw
+# double_balance = balance * 2
+
+# print("Final Balance:", balance)
+# print("Double Balance:", double_balance)
+# print("Balance < 100000:", balance < 100000)
+# ---------------------------------------------------------------
+# Laptop EMI
+# ------------
+# laptop_price = 80000
+# months = 10
+
+# emi = laptop_price / months
+# remainder = emi % 7
+
+# print("EMI:", emi)
+# print("Remainder:", remainder)
+# print("EMI > 5000:", emi > 5000)
+
+# emi += 500
+# print("Updated EMI:", emi)
+# ---------------------------------------------------
+# Social media
+# -----------
+# instagram = 25000
+# youtube = 18000
+# linkedin = 12000
+
+# total = instagram + youtube + linkedin
+# difference = instagram - linkedin
+# not_equal = youtube != linkedin
+# double_followers = total * 2
+
+# print("Total Followers:", total)
+# print("Difference:", difference)
+# print("YouTube != LinkedIn:", not_equal)
+# print("Double Followers:", double_followers)
+# --------------------------------------------------------------------------
+# DICTIONARY OPERATION
+# ---------------------
+# Student profile 
+# ----------------
+# student = {
+#     "name": "Rahul",
+#     "course": "Data Science",
+#     "marks": 88,
+#     "city": "Bangalore"
+# }
+
+# print(student["name"])
+# print(student["course"])
+
+# student["marks"] = 95
+# student["email"] = "rahul@gmail.com"
+# student.pop("city")
+
+# print(student.values())
+# print(student)
+# ---------------------------------------------------------------
+# Employee inf
+# ---------------
+# employee = {
+#     "id": 101,
+#     "name": "Anjali",
+#     "department": "HR",
+#     "salary": 45000
+# }
+
+# print(employee["salary"])
+
+# employee["salary"] += 5000
+# employee["location"] = "Kochi"
+# employee.pop("department")
+
+# print(employee.keys())
+# print(employee)
+# ---------------------------------------------------------------
+# Mobile product 
+# --------------
+# mobile = {
+#     "brand": "Samsung",
+#     "model": "S24",
+#     "price": 75000,
+#     "storage": "256GB"
+# }
+
+# print(mobile["model"])
+
+# mobile["price"] = 70000
+# mobile["color"] = "Black"
+# mobile.pop("storage")
+
+# print(mobile)
+# -----------------------------------------------------
+# Movie inf
+# ----------
+# movie = {
+#     "title": "Leo",
+#     "hero": "Vijay",
+#     "rating": 8.5,
+#     "language": "Tamil"
+# }
+
+# print(movie["title"])
+
+# movie["rating"] = 9.1
+# movie["director"] = "Lokesh"
+# movie.pop("language")
+
+# print(movie.items())
+# ----------------------------------------------
+# Online food
+# --------------
+# order = {
+#     "item": "Burger",
+#     "quantity": 2,
+#     "price": 250,
+#     "status": "Preparing"
+# }
+
+# print(order["item"])
+
+# total = order["quantity"] * order["price"]
+# print("Total:", total)
+
+# order["status"] = "Delivered"
+# order["payment"] = "Online"
+# order.pop("quantity")
+
+# print(order)
+# --------------------------------------------------
+# laptop shop
+# ------------
+# laptop = {
+#     "brand": "Dell",
+#     "ram": "16GB",
+#     "price": 65000,
+#     "processor": "i7"
+# }
+
+# print(laptop["ram"])
+
+# laptop["processor"] = "i9"
+# laptop["warranty"] = "2 Years"
+# laptop.pop("price")
+
+# print("Keys:", laptop.keys())
+# print("Values:", laptop.values())
+# ---------------------------------------------
+# Hospital
+# ----------
+# patient = {
+#     "name": "Arjun",
+#     "age": 32,
+#     "blood_group": "O+",
+#     "room": 205
+# }
+
+# print(patient["name"])
+
+# patient["room"] = 210
+# patient["doctor"] = "Dr. Meera"
+# patient.pop("age")
+
+# print(patient)
+# --------------------------------------------------
+# Amazon product
+# ------------------
+# product = {
+#     "product_name": "Headphones",
+#     "price": 2999,
+#     "rating": 4.4,
+#     "stock": 50
+# }
+
+# print(product["price"])
+
+# product["stock"] = 40
+# product["brand"] = "Sony"
+# product.pop("rating")
+
+# print("Keys:", product.keys())
+# # print("Values:", product.values())
+# -------------------------------------------------------------
+# OPERATOR + DICTIONARY
+# -----------------------
+# Employee Bonus
+# -----------------
+# employee = {
+#     "name": "Akhil",
+#     "salary": 50000,
+#     "bonus": 10000
+# }
+
+# total_salary = employee["salary"] + employee["bonus"]
+
+# employee["department"] = "AI Team"
+# employee["salary"] += 5000
+
+# print("Total Salary:", total_salary)
+# print(employee)
+# print("Total Salary > 60000:", total_salary > 60000)
+# ---------------------------------------------------------------------
+# Shopping cart
+# --------------
+# cart = {
+#     "item": "Keyboard",
+#     "price": 1500,
+#     "quantity": 3
+# }
+
+# total_amount = cart["price"] * cart["quantity"]
+
+# cart["delivery"] = 100
+# final_bill = total_amount + cart["delivery"]
+
+# print("Total Amount:", total_amount)
+# print("Final Bill:", final_bill)
+# print("Final Bill > 5000:", final_bill > 5000)
+# -------------------------------------------------------------------------------
+# Student course
+# ---------------
+# student = {
+#     "name": "Diya",
+#     "course_fee": 45000,
+#     "paid": 20000
+# }
+
+# remaining_fee = student["course_fee"] - student["paid"]
+
+# student["course"] = "Python Full Stack"
+# student["paid"] = 30000
+
+# print("Remaining Fee:", remaining_fee)
+# print(student)
+# print("Paid == Total Fee:", student["paid"] == student["course_fee"])
+# ------------------------------------------------------------------------------
